@@ -2,8 +2,6 @@
 #include <stdlib.h>
 #include "dessin.h"
 
-// just to explain git and github to someone
-
 void point_suivant(double x, double y, double x_c, double y_c, double* x_next, double* y_next) {
   // printf("Point suivant ! (%f, %f, %f, %f, %f, %f)\n", x, y, x_c, y_c, *x_next, *y_next);
   *x_next = x * x - y * y + x_c;
