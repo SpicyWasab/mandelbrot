@@ -4,6 +4,7 @@
 #include <sys/wait.h>
 #include <stdbool.h>
 #include "dessin.h"
+#include <stdlib.h>
 
 void color(int val, int max_val, int* r, int* g, int* b) {
   // int max = 600; // should match the value that I put in mandelbrot.c, I should refactor later // done
@@ -47,6 +48,10 @@ void sauvegarder(const char* fichier, int** img, int h, int l, int max_color_val
         fprintf(file, "\n");
     }    
     fclose(file);
+
+    // convert can take a lot of ressources for a very large image
+    // it helps to free the pixel matrix beforehand
+    free(img);
         
     // ce qui suit est complètement hors programme
     if(fork()==0){
