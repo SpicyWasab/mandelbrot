@@ -3,8 +3,8 @@ Ce code est initalement issu d'un TP de C portant sur la compilation séparée d
 
 | Nom (arbitraire) | Image |
 | ------------- | ------------- |
-| Sunset over trees | ![Sunset over trees](./examples/sunset-over-trees.gif)  |
-| Lightning | ![lightning.gif](./examples/lightning.gif) |
+| Sunset over trees | ![Sunset over trees](.https://raw.githubusercontent.com/SpicyWasab/mandelbrot/main/examples/sunset-over-trees.gif "Sunset over trees")  |
+| Lightning | ![lightning.gif](https://raw.githubusercontent.com/SpicyWasab/mandelbrot/main/examples/lightning.gif "Lightning") |
 
 
 ## Usage
