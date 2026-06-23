@@ -35,3 +35,10 @@ Les noms sont totalement arbitraires et attribués selon le bon vouloir de mon i
 | Cosmic Tunnel | `4500 -0.1 0.6498 0.0001` |  ![Cosmic Tunnel](https://raw.githubusercontent.com/SpicyWasab/mandelbrot/main/examples/cosmic-tunnel-2k.png "Cosmic Tunnel (2k)") |
 | Sea Spiral | `5000 -1000648 0.64975771 0.0000001` |  ![Sea Spiral](https://raw.githubusercontent.com/SpicyWasab/mandelbrot/main/examples/sea-spiral-2k.png "Sea Spiral (2k)")  |
 | Field of Daisies | à retrouver ! |  ![Fields of Daisies](https://raw.githubusercontent.com/SpicyWasab/mandelbrot/main/examples/fields-of-daisies.png "Fields of Daisies (2k)") |
+
+## Pistes d'améliorations
+La prépa terminée, j'aimerais bien porter la codebase en rust et ajouter une interface graphique à ce programme avec Libadwaita, afin de véritablement apprendre le langage et de contribuer à l'écosystème GNOME.
+
+Initialement, le TP de sup' introduisait les ensembles de Julia, avec Mandelbrot à la fin. N'ayant temporairement plus accès à mon ancien code déjà modifié portant sur les ensembles de Julia, et ayant soudainement envie de générer de nouvelles images, ce code a été réécrit mais en se spécialisant à l'ensemble de Mandelbrot, qui est "sensiblement plus diversifé en terme de paysage". Prendre à nouveau en charge les ensembles de Julia pourrait ainsi être une bonne idée.
+
+
