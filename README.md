@@ -27,12 +27,10 @@ Pour générer les images permettant de produire le gif au début de ce README :
 
 ## Quelques découvertes sympa
 Les noms sont totalement arbitraires et attribués selon le bon vouloir de mon imagination. Explorer l'ensemble de mandelbrot donne des souvenirs similaires au fait de reconnaître des formes dans les nuages lorsqu'on est enfant.
-- Cosmic Tunnel : mandelbrot 2000 4500 -0.1 0.6498 0.0001
-- Sea Spiral : mandelbrot 2000 5000 -0.1000648 0.64975771 0.0000001
 
 | Nom | `(threshold) x y zoom `| Image |
 | ------------- | --- | ------------- |
-| Sunset over trees | `-0.7 -0.4 0.1`![Sunset over trees](https://raw.githubusercontent.com/SpicyWasab/mandelbrot/main/examples/sunset-over-trees.gif "Sunset over trees")  |
+| Sunset over trees | `-0.7 -0.4 0.1` | ![Sunset over trees](https://raw.githubusercontent.com/SpicyWasab/mandelbrot/main/examples/sunset-over-trees.gif "Sunset over trees")  |
 | Lightning | à retrouver ! | ![lightning.gif](https://raw.githubusercontent.com/SpicyWasab/mandelbrot/main/examples/lightning.gif "Lightning") |
 | Cosmic Tunnel | `4500 -0.1 0.6498 0.0001` |  ![Cosmic Tunnel](https://raw.githubusercontent.com/SpicyWasab/mandelbrot/main/examples/cosmic-tunnel-2k.png "Cosmic Tunnel (2k)") |
 | Sea Spiral | `5000 -1000648 0.64975771 0.0000001` |  ![Sea Spiral](https://raw.githubusercontent.com/SpicyWasab/mandelbrot/main/examples/sea-spiral-2k.png "Sea Spiral (2k)")  |
